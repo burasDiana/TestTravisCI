@@ -13,8 +13,9 @@ public class Test1 {
     @Test
     public void GradeConversionTest(){
         Grade grade = new Grade();
-        Assert.assertTrue( 12 == grade.convertGrade('a'));
+        grade.Set_Value("12");
+
+        grade.convertGrade(grade);
+        Assert.assertTrue( 12 == grade.GetValue_Danish());
     }
-
-
 }
