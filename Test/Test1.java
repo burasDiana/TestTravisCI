@@ -4,6 +4,8 @@ import com.company.Main;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+// test: trigger ci
 public class Test1 {
     @Test
     public void Test() {
